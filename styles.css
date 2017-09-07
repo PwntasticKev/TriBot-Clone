@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.header-container {
+  display:grid;
+  grid-template-columns: 6fr .7fr .7fr .7fr .7fr .7fr .7fr .7fr 3fr;
+  background-color: #2196F3;
+  padding: 1rem;
+
+}
+
+.head {
+  color: white;
+  background-color: lightbluge;
+
+}
+
+.header {
+  margin-left: 13rem;
+}
+
+.image-container {
+
+  text-align: center;
+
+}
+.main-image {
+  background-color: lightgray;
+  padding:1rem;
+}
+
+.blue-headers {
+  background-color: #2196F3;
+  text-align: center;
+  font-size: 3rem;
+  padding:2rem;
+  color: white;
+}
+
+.cards-container {
+  display:grid;
+  grid-template-columns:  repeat(4, 1fr );
+  padding: 3rem 10rem 3rem 10rem;
+  grid-gap: .3rem;
+  grid-row-gap: 2rem;
+
+}
+
+p {
+  text-align: center;
+  line-height: 1rem;
+  padding:6px;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.cards {
+  background-color: grayl;
+  text-align: center;
+  font-size: 1.64rem;
+  margin-bottom: 10px;
+}
+
+.cards > img {
+text-align: center;
+}
+.testimonials {
+  text-align: center;
+  background-color: blue;
+}
+.trilez {
+  background-color: white;
+  text-align: center;
+}
+
+.pricing-container {
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 10;
+  grid-column-gap: 3rem;
+  grid-row-gap: 2px;
+  text-align: center;
+  padding:4rem;
+
+
+}
+
+.pricebox {
+  background: #2196F3;
+  padding: 1rem;
+  font-size: 25px;
+  color: white;
+  font-weight: 200;
+}
+
+.inner-price {
+  background-color: gray;
+  grid-row: 
+}
+
+
+
+
+/*bottom*/
