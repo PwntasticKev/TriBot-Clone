@@ -6,9 +6,9 @@ body {
 }
 .header-container {
   display:grid;
-  grid-template-columns: 6fr .7fr .7fr .7fr .7fr .7fr .7fr .7fr 3fr;
+  grid-template-columns: 6fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr 1.5fr;
   background-color: #2196F3;
-  padding: 1rem;
+  padding: 1.5rem;
 
 }
 
@@ -19,7 +19,33 @@ body {
 }
 
 .header {
-  margin-left: 13rem;
+  margin-left: 17rem;
+}
+
+.main-header {
+  font-size:4.2rem;
+  margin: 2.1rem 0 1.68rem;
+}
+
+.low-header {
+  font-size: 1.64rem;
+  margin-bottom: 1.2rem;
+}
+
+.download {
+  background-color: #2196F3;
+  display: inline-block;
+  color: white;
+  padding: 1rem;
+  width: 10%;
+  font-weight: 400;
+}
+
+.sign-up {
+  display: inline-block;
+  background-color: gray;
+  padding: 1rem;
+  width: 10%;
 }
 
 .image-container {
@@ -71,9 +97,19 @@ text-align: center;
   text-align: center;
   background-color: blue;
 }
+
+.trilez-container {
+  text-align: center;
+  padding-top: .5rem;
+  margin-top: 1.25rem;
+
+}
+
 .trilez {
   background-color: white;
-  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+
 }
 
 .pricing-container {
@@ -98,7 +134,7 @@ text-align: center;
 
 .inner-price {
   background-color: gray;
-  grid-row: 
+  grid-row:
 }
 
 
